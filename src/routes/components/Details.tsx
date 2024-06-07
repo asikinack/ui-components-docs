@@ -13,6 +13,7 @@ import {
   GoAInput,
   GoARadioGroup,
   GoARadioItem,
+  GoASpacer,
   GoATab,
   GoATabs,
 } from "@abgov/react-components";
@@ -170,6 +171,7 @@ export default function DetailsPage() {
                   width="88px"
                 />
               </GoAFormItem>
+              <GoASpacer vSpacing="xl" />
               <GoAFormItem
                 label="Branch or Transit number"
                 helpText={"5 digits in length"}
@@ -184,6 +186,7 @@ export default function DetailsPage() {
                   width="143px"
                 />
               </GoAFormItem>
+              <GoASpacer vSpacing="xl" />
               <GoAFormItem label="Account number" helpText="3-12 digits in length" id="accountNumber">
                 <GoAInput
                   maxLength={12}
